@@ -20,6 +20,4 @@ int main () {
 
   // comment on a single line
 
-
-
 }
