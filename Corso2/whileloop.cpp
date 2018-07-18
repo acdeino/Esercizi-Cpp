@@ -8,6 +8,7 @@ int main () {
   code continues to be executed, until...
 } */
  int n;
+ double avg;
 
  cout << "Enter a number: ";
  cin >> n;
@@ -22,7 +23,13 @@ int main () {
 
    sum += number;
    ++i;
+
+   avg = sum / number;
+
  }
+
+ cout << "Sum of " << n << " entered numbers is: " << sum << endl;
+ cout << "Average value of " << n << " entered numbers is: " << avg << endl;
 
 
 
