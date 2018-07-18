@@ -9,7 +9,7 @@ int main () {
 } */
 
  int n;
- float avg;
+ double avg;
 
  cout << "Enter a number: ";
  cin >> n;
