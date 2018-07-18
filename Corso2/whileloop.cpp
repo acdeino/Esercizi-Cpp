@@ -7,6 +7,7 @@ int main () {
   /* while(condition) {
   code continues to be executed, until...
 } */
+
  int n;
  float avg;
 
