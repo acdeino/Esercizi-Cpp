@@ -8,7 +8,7 @@ int main () {
   code continues to be executed, until...
 } */
  int n;
- double avg;
+ float avg;
 
  cout << "Enter a number: ";
  cin >> n;
