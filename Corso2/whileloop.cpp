@@ -17,7 +17,11 @@ int main () {
 
  while (i <= n) {
    int number;
-   cout << ""
+   cout << "Enter a " << i << ". number: ";
+   cin >> number;
+
+   sum += number;
+   ++i;
  }
 
 
