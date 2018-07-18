@@ -17,7 +17,13 @@ int main () {
     cout << "Enter: " << i << ". number: ";
     cin >> number;
 
-    sum = sum + number;
+    sum += number;
   }
+
+  cout << "Sum of " << n << " entered numbers is: " << sum << endl;
+
+  /* for (initializer; condition; increment) {
+  *do the action the code here says*
+} */
 
 }
